@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+@media (min-width:320px)  {
+#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 75px;
+	    margin-top: 13px;
+	    height: 24px;
+	    margin-left:26%;
+	}	
+	#tourLogo{
+	   max-width: 100px;
+	    display: inline-block;
+	    height: auto;
+	    width: 74%;
+	    margin-left: 25%;
+	    margin-top: 8%;
+	}
+	#gbLogo{
+		max-width: 174%;
+	    display: inline-block;
+	    width: 68px;
+	    height: 28px;
+	    margin-top: 8px;
+	    margin-right:26%;
+	}
+	.match-no{
+		font-size: 14px;
+    	font-weight: 500;
+	}	
+	.date-day{
+		margin-left: 10%;
+	}
+	.player-img{
+		 float: left;
+		margin-left: -41%;
+		height: 108px !important;
+	}
+}
+@media (min-width:480px){
+#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 100px;
+	    margin-top: 16px;
+	    height: 35px;
+	    margin-left: 26%;
+	}	
+	#tourLogo{
+	 	max-width: 100px;
+	    display: inline-block;
+	    height: 37px;
+	    width: 100px;
+	    margin-left: 39%;
+	    margin-top: 3%;
+	}
+	#gbLogo{
+		max-width: 100%;
+	    display: inline-block;
+	    width: 91px;
+	    height: 37px;
+	    margin-top: 8px;
+	    margin-right: 26%;
+	}
+	.date-day{
+		margin-left: 28%;
+	}
+	.player-img{
+		 float: left;
+		margin-left: -41%;
+		height: 108px !important;
+	}
+}
+
+@media (min-width:801px)  {
+#psLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 38%;
+		margin-top: 4%;
+		margin-left: 4%;
+	}	
+	#tourLogo{
+		    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    width: 44%;
+    margin-top: 2%;
+    margin-left: 29%;
+    padding-bottom: 1%;
+	}
+	#gbLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 25%;
+		margin-top: 4%;
+		margin-right: 4%;
+	}
+	.player-img{
+		 float: left;
+		margin-left: -8%;
+		height: 108px;
+	}
+}
+@media only screen and (min-width: 993px){
+	.match-no{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.date-day{
+		margin-left: 35%;
+	}
+	.icons-class{
+		font-size: 38px;
+		margin-left: 5%;
+	}
+	
+	.icons-class-foul{
+		font-size: 41px !important;
+		margin-left: 2%;
+	}
+	.score-text{
+		font-size: 28px;
+		font-weight: 300;
+	}
+	
+	.icons-text{
+		font-size: 25px;
+		margin-left: 7%;
+		font-weight: 500;
+	}
+	.team-name{
+		font-weight: 500;
+		float: right;
+		margin-right: 16%;
+		margin-top: 21%;
+		font-size: 54px;
+		color:white !important;
+	}	
+	.player-img{
+		 float: left;
+		margin-left: -8%;
+		height: 108px !important;
+	}
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    opacity: 0.3;
+}

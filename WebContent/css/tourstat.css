@@ -1,0 +1,198 @@
+@CHARSET "UTF-8";
+@media (min-width:320px)  {
+#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 75px;
+	    margin-top: 13px;
+	    height: 24px;
+	    margin-left:26%;
+	}	
+	#tourLogo{
+	   max-width: 100px;
+	    display: inline-block;
+	    height: auto;
+	    width: 74%;
+	    margin-left: 25%;
+	    margin-top: 8%;
+	}
+	#gbLogo{
+		max-width: 174%;
+	    display: inline-block;
+	    width: 68px;
+	    height: 28px;
+	    margin-top: 8px;
+	    margin-right:26%;
+	}
+	.card-panel-text{
+		font-size:21px;
+	}
+	.result-text{
+		font-size: 32px;
+		font-weight: 500;
+	}
+	.teama , .teamb{
+		width: 139px !important;
+	    float: left;
+	    margin-left: 20%;
+	}
+	.vs{
+		font-size: 33px;
+	    font-weight: 400;
+	    margin-left: 37%;
+	    float: left;
+	}
+	#columnchart
+	{
+	width: 700px; 
+	height: 500px;
+	}	
+	
+}
+@media (min-width:480px){
+#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 100px;
+	    margin-top: 16px;
+	    height: 35px;
+	    margin-left: 26%;
+	}	
+	#tourLogo{
+	 	max-width: 100px;
+	    display: inline-block;
+	    height: 37px;
+	    width: 100px;
+	    margin-left: 39%;
+	    margin-top: 3%;
+	}
+	#gbLogo{
+		max-width: 100%;
+	    display: inline-block;
+	    width: 91px;
+	    height: 37px;
+	    margin-top: 8px;
+	    margin-right: 26%;
+	}
+	.teama{
+		width: 123px !important;
+	    height: 116px !important;
+	    margin-left: 7%;
+	}
+	.vs{
+		font-size: 33px;
+	    font-weight: 400;
+	    margin-left: 45%;
+	    float: left;
+	}
+	.teamb{
+		width: 123px !important;
+	    height: 116px !important;
+	    margin-top: -37%;
+	    float: right;
+	    margin-right: 10%;
+	}
+	#columnchart
+	{
+	width: 700px; 
+	height: 500px;
+	}
+}
+
+@media (min-width:600px) {
+		.teama{
+		width: 123px !important;
+		height: 116px !important;
+	}
+	.vs{
+		font-size: 33px;
+		font-weight: 400;
+		margin-left: 0%;
+		float: left;
+		margin-top: 0%;
+	}
+	.teamb{
+		 width: 123px !important;
+		height: 116px !important;
+		margin-top: -4%;
+		float: right;
+	}
+		#columnchart
+	{
+	width: 700px; 
+	height: 500px;
+	}
+}
+
+@media (min-width:801px)  {
+#psLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 38%;
+		margin-top: 4%;
+		margin-left: 4%;
+	}	
+	#tourLogo{
+		    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    width: 44%;
+    margin-top: 2%;
+    margin-left: 29%;
+    padding-bottom: 1%;
+	}
+	#gbLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 25%;
+		margin-top: 4%;
+		margin-right: 4%;
+	}
+	
+}
+
+@media only screen and (min-width: 993px){
+	.teama{
+		width: 129px !important;
+		height: 116px !important;
+		float: left;
+ 	    margin-left: -20%;
+	}
+	.vs{
+		font-size: 33px;
+		font-weight: 400;
+		margin-left: 0%;
+		float: left;
+		margin-top: -1%;
+	}
+	.teamb{
+		 width: 129px !important;
+		height: 116px !important;
+		margin-top: -4%;
+		float: right;
+    	margin-right: -20%;
+	}
+	#columnchart
+	{
+	width: 900px; 
+	height: 500px;
+	}
+}
+.card-panel{
+	padding: 1% 5% 1%;
+	margin: 0.5rem 0 0.1rem
+}
+.card-panel-title{
+	padding:1% 1% 1%;
+}
+.result-text{
+		font-size: 62px;
+		font-weight: 500;
+}
+.clearfix:after {
+	content: " "; /* Older browser do not support empty content */
+	display: block;
+	clear: both;
+}

@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+@media (min-width:320px)  {
+#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 75px;
+	    margin-top: 13px;
+	    height: 24px;
+	    margin-left:26%;
+	}	
+	#tourLogo{
+	   max-width: 100px;
+	    display: inline-block;
+	    height: auto;
+	    width: 74%;
+	    margin-left: 25%;
+	    margin-top: 8%;
+	}
+	#gbLogo{
+		max-width: 174%;
+	    display: inline-block;
+	    width: 68px;
+	    height: 28px;
+	    margin-top: 8px;
+	    margin-right:26%;
+	}
+	.goal-first-player-name{
+		font-size: 24px;
+		font-weight: 300;
+		margin-left: 4%;
+	}
+	.goal-last-player-name{
+		margin-left: 2%;
+	    font-size: 23px;
+	    font-weight: 500;
+	}
+}
+
+@media only screen and (min-width:480px){
+#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 100px;
+	    margin-top: 16px;
+	    height: 35px;
+	    margin-left: 26%;
+	}	
+	#tourLogo{
+	 	max-width: 100px;
+	    display: inline-block;
+	    height: 37px;
+	    width: 100px;
+	    margin-left: 39%;
+	    margin-top: 3%;
+	}
+	#gbLogo{
+		max-width: 100%;
+	    display: inline-block;
+	    width: 91px;
+	    height: 37px;
+	    margin-top: 8px;
+	    margin-right: 26%;
+	}
+	.winner-team-logo{
+		width: 100%;
+    	height: 332px
+	}
+	.goal-first-player-name{
+		font-size: 24px;
+		font-weight: 300;
+		margin-left: 4%;
+	}
+	.goal-last-player-name{
+		margin-top: -58%;
+	    margin-left: 2%;
+	    font-size: 23px;
+	    font-weight: 500;
+	}
+}
+
+@media (min-width:801px)  {
+#psLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 38%;
+		margin-top: 4%;
+		margin-left: 4%;
+	}	
+	#tourLogo{
+		    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    width: 44%;
+    margin-top: 2%;
+    margin-left: 29%;
+    padding-bottom: 1%;
+	}
+	#gbLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 25%;
+		margin-top: 4%;
+		margin-right: 4%;
+	}
+	
+}
+@media only screen and (min-width:600px) {
+	.winner-team-logo{
+		width: 103%;
+		height: 240px;
+	}
+}
+@media only screen and (min-width: 993px){
+	.winner-team{
+		height: 338px !important;
+		width: 879px !important;
+	}
+	.winner-team-logo{
+		width: 103%;
+		height: 343px;
+	}
+	.goal-first-player-name{
+		font-size: 24px;
+		font-weight: 300;
+		margin-left: 4%;
+	}
+	.goal-last-player-name{
+		margin-top: -58%;
+	    margin-left: 2%;
+	    font-size: 23px;
+	    font-weight: 500;
+	}
+}

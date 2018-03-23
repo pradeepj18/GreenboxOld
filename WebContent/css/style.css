@@ -1,0 +1,811 @@
+@CHARSET "UTF-8";
+
+/*    
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android)  }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone  }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops }
+@media (min-width:1281px) { /* hi-res laptops and desktops  }
+
+ */
+
+/* MOBILE */
+@media (min-width:320px) {
+.playsoftech-logo {
+	max-width: 100%;
+	display: inline-block;
+	margin-top: 12%;
+}
+
+#playsoftech-part2-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.playsoftech-part2-event {
+    background-color: #fff;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: auto;
+    padding: 2% 2%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+#playsoftech-page2-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 39%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  
+}
+#playsoftech-page3-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  
+}
+#playsoftech-page5-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 13%;
+
+}
+	.playsoftech-page5 {
+    max-width: 100%;
+    width: 100%;
+    background-color: #66ccff;
+    height: auto;
+}
+
+}
+
+/* MOBILE LANDSCAPE */
+@media (min-width:480px) {
+.playsoftech-page5 {
+    max-width: 100%;
+    width: 100%;
+    background-color: #66ccff;
+    height: auto;
+}
+.playsoftech-logo {
+	max-width: 100%;
+	display: inline-block;
+	margin-top: 7%;
+}
+
+#playsoftech-part2-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+
+.playsoftech-part2-event {
+    background-color: #fff;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: auto;
+    padding: 2% 2%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+#playsoftech-page3-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+#playsoftech-page5-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6%;
+	margin-left: 29%;
+}
+
+}
+
+	
+@media (min-width:801px) {
+#playsoftech-part2-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#playsoftech-page3-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 27%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    word-break:break-all;
+}
+#playsoftech-page5-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 15%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+	margin-left:10%;
+}
+
+.playsoftech-part2-event {
+    background-color: #fff;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: auto;
+    padding: 2% 2%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+	
+	
+}
+.playsoftech-logo {
+	max-width: 100%;
+	display: inline-block;
+	width: 100;
+	margin-top: 2%;
+}
+.playsoftech-page1-part2 {
+	max-width: 100%;
+	background-color: #196b9f;
+	background-image: url(../images/bg-part2.png);
+	
+}
+
+
+  .playsoftech-page2 {
+    max-width: 100%;
+	width:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+    background-image: url(../images/bg-page2.png);
+    height: 78vh;
+
+}
+
+.playsoftech-page5 {
+    max-width: 100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position: left;
+    background-image: url(../images/bg-page5.png) !important;
+	height:110vh;
+	background-color:#FFFFFF;
+
+}
+}
+
+@media (min-width: 992px){
+	#playsoftech-part2-title {
+    background-color: #4984c5;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 61%;
+    height: auto;
+    padding: 1% 1%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+	
+	}
+
+@media (max-width: 991px) {
+	
+	
+.navbar-header {
+	float: none;
+}
+.navbar-toggle {
+	display: block;
+}
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-nav {
+	float: none!important;
+	margin: 7.5px -15px;
+}
+.navbar-nav > li {
+	float: none;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-text {
+	float: none;
+	margin: 15px 0;
+}
+.navbar-collapse.collapse.in {
+	display: block!important;
+}
+.collapsing {
+	overflow: hidden!important;
+}
+
+}
+
+@media (min-width:1025px) {
+}
+
+@media (min-width: 1200px) {
+.navbar-inverse {
+	border: none;
+	padding: -3px 0;
+	background : #4070B9;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f1f1f1;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	font-weight: bold;
+	background: transparent;
+}
+.navbar-scroll {
+	padding: 5px 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+}
+.clearfix:after {
+	content: " "; /* Older browser do not support empty content */
+	display: block;
+	clear: both;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffff;
+}
+.container-fluid {
+	padding: 0px !important;
+	overflow-x: hidden;
+}
+/*********************************************************************************************************************
+													NAV PANEL START
+********************************************************************************************************************/
+
+a.active {
+	font-weight: bold;
+	background: transparent;
+}
+.navbar-inverse {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	background: #4070B9;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f1f1f1;
+}
+.navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a:active {
+	font-weight: bold;
+	background: transparent;
+}
+/* ==================================================
+	tabs
+====================================================*/
+
+.nav-tabs {
+	margin: 40px 0;
+	border-bottom: 2px solid #f1f1f1;
+	margin-bottom: 15px;
+}
+.nav-tabs li {
+	margin-bottom: 0;
+}
+.nav-tabs li a {
+	border: 2px solid transparent;
+	border-bottom: 0;
+	color: #f1f1f1;
+}
+.nav-tabs li a:hover {
+	border-color: #e6e6e6;
+	color: #f1f1f1;
+	background: rgba(255, 255, 255, 0.3);
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+	background: rgba(255, 255, 255, 0.1);
+	color: white;
+	border: 2px solid #f1f1f1;
+	border-bottom: 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.toggle-nav {
+	font-size: 24px;
+	padding-top: 14px;
+	pointer: cursor;
+}
+.toggle-nav:hover {
+	font-size: 26px;
+}
+.menu-block {
+	position: fixed;
+	background: rgba(0,0,0,0.96);
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+}
+.menu-block .menu {
+	display: table-cell;
+	vertical-align: middle;
+}
+.menu-block .menu li {
+	padding: 10px 0;
+}
+.menu-block .menu li a {
+	color: #f1f1f1;
+	font-size: 18px;
+	font-weight: bold;
+}
+.menu-block .menu li a:hover {
+	font-size: 20px;
+}
+/*********************************************************************************************************************
+													NAV PANEL END
+********************************************************************************************************************/
+	
+
+
+.playsoftech-part2-event {
+    background-color: #fff;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: auto;
+    padding: 2% 2%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------
+												SERVICE 
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.services.style1 {
+  padding: 40px 20px;
+  text-align: center; }
+
+  .services.style1 img {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
+  .services.style1 i {
+    font-size: 60px; }
+
+  .services.style1:hover i {
+    color: #f1f1f1; }
+
+.services.style2 {
+  text-align: center;
+  padding: 40px 20px; }
+
+  .services.style2 img {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
+  .services.style2 i {
+    min-width: 80px;
+    font-size: 36px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #f1f1f1;
+    background: rgba(225, 225, 225, 0.2);
+    display: inline-block;
+    text-align: center; }
+
+  .services.style2:hover i {
+    background: rgba(0, 0, 0, 0.5); }
+
+.services.style3 {
+  padding: 40px 20px; }
+
+  .services.style3 i {
+    min-width: 80px;
+    margin-top: 14px;
+    float: left;
+    font-size: 36px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #f1f1f1;
+    background: rgba(225, 225, 225, 0.2);
+    display: inline-block;
+    text-align: center; }
+
+  .services.style3 .content {
+    margin-left: 100px; }
+
+    .services.style3 .content ul {
+      list-style: none;
+      padding: 0 20px; }
+
+      .services.style3 .content ul li:before {
+        font-family: 'FontAwesome';
+        content: '\f00c';
+        margin: 0 5px 0 -15px;
+        color: #f1f1f1; }
+
+  .services.style3:hover i {
+    background: rgba(0, 0, 0, 0.5); }
+
+.services.style4 {
+  padding: 40px 20px; }
+ 
+  .services.style4 i {
+    float: left;
+    font-size: 31px;
+    margin-top: 10px; }
+ 
+  .services.style4 .content {
+    margin-left: 50px; }
+ 
+  .services.style4 a {
+    color: #f1f1f1;
+    text-transform: capitalize;
+    padding-left: 18px; }
+   
+    .services.style4 a:before {
+      font-family: 'FontAwesome';
+      content: '\f18e';
+      margin: 0 5px 0 -15px;
+      color: #f1f1f1; }
+  
+    .services.style4 a:hover {
+      text-decoration: none; }
+
+.services i {
+  color: #f1f1f1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.services h4 {
+  text-transform: uppercase; }
+
+@media (max-width: 992px) {
+ 
+  .services.style1, .services.style2, .services.style3, .services.style4 {
+    padding: 20px 0; } }
+@media (max-width: 768px) {
+ 
+  .services.style1, .services.style2 {
+    padding: 20px 40px; } }
+	.circle {
+   
+    border-radius: 100%;
+}
+
+.playsoftech-services-font{
+	font-size:22px;
+	
+}
+
+.playsoftech-aboutus {
+    padding: 4%;
+    color: #fff;
+    
+	font-size:12pt;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px 0; }
+
+.btn-submit {
+    color: #fff;
+    background-color: #1D84FF;
+    border-color: #1D84FF;
+}
+
+.contact-info {
+  text-align: center; }
+  /* line 1871, ../sass/style.scss */
+  .contact-info i {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    margin: 0 auto;
+	    line-height: 36px;
+    border-radius: 100%; }
+
+
+#contactForm {
+  margin: 70px 0; }
+  /* line 1828, ../sass/style.scss */
+  #contactForm .help-block {
+    color: #f1f1f1; }
+
+#footer {
+  text-align: center;
+ }
+
+#section {
+    position: relative;
+    min-height: 100%;
+    padding: 100px 0 100px;
+}
+
+.playsoftech-page3 {
+    
+    background-image: url(../images/Bg-page3.png);
+	background-color:#FFFFFF;
+	
+
+}
+.playsoftech-page1-part2 {
+ 
+    background-color: #196b9f;
+    background-image: url(../images/bg-part2.png);
+   
+}
+.playsoftech-contactus{
+	background-color:#006699;
+	
+}
+
+.playsoftech-icon{
+	color:#FFFFFF;
+	
+}
+
+.playSoftech-form-1 {
+    background: rgba(0,0,0,0.08);
+    border-radius: 8px;
+    color: #fff;
+    max-width: 60%;
+    margin: 30px auto 0 auto;
+    padding: 0 30px 30px 30px;
+}
+
+.scrolltop{
+	height:auto;
+	width:6%;
+	float:right;
+	
+}
+
+a {
+  color: #f1f1f1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  /* line 42, ../sass/style.scss */
+  a:hover {
+    text-decoration: none;
+    color: #f1f1f1; }
+
+/* line 48, ../sass/style.scss */
+hr {
+  margin: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3); }
+
+/* line 53, ../sass/style.scss */
+pre {
+  word-wrap: normal; }
+
+/* line 57, ../sass/style.scss */
+blockquote .small, blockquote footer, blockquote small {
+  color: #f1f1f1; }
+
+/* line 61, ../sass/style.scss */
+.section {
+  position: relative;
+  min-height: 100%;
+  padding: 100px 0 100px; }
+
+/* line 67, ../sass/style.scss */
+#bg_pattern {
+  background-image: url(../img/bg_pattern.png);
+  position: fixed;
+  opacity: 0.8;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+/* line 78, ../sass/style.scss */
+.rounded {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-radius: 0px; }
+
+/* line 82, ../sass/style.scss */
+.circle {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border-radius: 100%; }
+
+/* line 86, ../sass/style.scss */
+.rounded {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-radius: 4px; }
+
+/* line 90, ../sass/style.scss */
+.padd-t-10 {
+  padding-top: 10px; }
+
+/* line 94, ../sass/style.scss */
+.padd-t-100 {
+  padding-top: 100px; }
+
+/* line 98, ../sass/style.scss */
+.padd-tb-10 {
+  padding: 10px 0; }
+
+/* line 102, ../sass/style.scss */
+.padd-tb-20 {
+  padding: 20px 0; }
+
+/* line 106, ../sass/style.scss */
+.nopadd {
+  padding: 0; }
+
+/* line 110, ../sass/style.scss */
+.margin-t-100 {
+  margin-top: 100px; }
+
+/* ==================================================
+	background-color
+====================================================*/
+/* line 120, ../sass/style.scss */
+.dark-bg {
+  background: #000; }
+
+/* line 121, ../sass/style.scss */
+.light-bg {
+  background: #f6f6f6; }
+
+/* line 122, ../sass/style.scss */
+.green-bg {
+  background: #00A600; }
+
+/* line 123, ../sass/style.scss */
+.blue-bg {
+  background: #2E8DEF; }
+
+/* line 124, ../sass/style.scss */
+.orange-bg {
+  background: #DC572E; }
+
+/* line 125, ../sass/style.scss */
+.red-bg {
+  background: #BF1E4B; }
+
+/* line 126, ../sass/style.scss */
+.purple-bg {
+  background: #A700AE; }
+
+/* line 127, ../sass/style.scss */
+.aqua-bg {
+  background: #27d7e7; }
+
+/* line 128, ../sass/style.scss */
+.brown-bg {
+  background: #9c8061; }
+
+/* line 129, ../sass/style.scss */
+.dark-blue-bg {
+  background: #2672EC; }
+
+/* line 130, ../sass/style.scss */
+.light-green-bg {
+  background: #79d5b3; }
+
+/* line 131, ../sass/style.scss */
+.dark-red-bg {
+  background: #a10f2b; }
+
+/* line 132, ../sass/style.scss */
+.teal-bg {
+  background: #00A0B1; }
+
+/* line 133, ../sass/style.scss */
+.dark-purple-bg {
+  background: #643EBF; }

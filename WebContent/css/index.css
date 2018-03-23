@@ -1,0 +1,386 @@
+@CHARSET "UTF-8";
+
+/*    
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android)  }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone  }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops }
+@media (min-width:1281px) { /* hi-res laptops and desktops  }
+
+ */
+
+/* MOBILE */
+@media (min-width:320px)  {
+	#day{	font-size:18px;
+    margin-left: 6%;
+    text-align: center;
+	
+}
+	#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 75px;
+	    margin-top: 13px;
+	    height: 24px;
+	    margin-left:26%;
+	}	
+	#tourLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    height: auto;
+	    width: 50%;
+	    margin-left: 31%;
+	    margin-top: 3%;
+	}
+	#gbLogo{
+		max-width: 174%;
+	    display: inline-block;
+	    width: 116px;
+	    height: 28px;
+	    margin-top: 8px;
+	    margin-right:26%;
+	}
+	.score-container{
+		margin-top:1%;
+		background-image: url("../images/Score_BG.png");
+		max-width: 100%;
+		/* height: 1319px; */
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: 100% 85%;
+		width: 100%;
+		height:401px;
+	}
+	.half-container{
+		background-image: url("../images/First-Half-Box.png");
+		max-width: 100%;
+		/* height: 42px; */
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	    width: 28%;
+  		padding: 1% 1%;
+	}
+	#score-half-text{
+		font-weight:700;
+		font-size:15px;
+	}
+	.team1{
+	    max-width: 100%;
+	    height: auto;
+	    display: inline-block;
+	    width: 22.7%;
+	    margin-left: 2.1%;
+		margin-top:11%;
+	}
+	.team2{
+	    max-width: 100%;
+	    height: auto;
+	    display: inline-block;
+	    width: 22.7%;
+	    margin-right: 2.1%;
+		margin-top:-25%;
+	}
+	#tname1{
+		 font-size: 22px; 
+		 color: white; 
+		 float: left; 
+		 margin-left: 10%;
+			
+	}
+	#tname2{
+		float: right;
+		font-size: 22px;
+		color: white; 
+		margin-right: 8%;
+		
+	}
+	#vs{
+		font-size: 35px; 
+		float: left; 
+		display: inline-block; 
+		margin-top: -53%; 
+		margin-left: -6%;
+	}
+}
+
+/* MOBILE LANDSCAPE */
+ @media (min-width:480px){
+	 #day{
+		font-size:20px;
+		  margin-left: 6%;
+    text-align: center;
+	 }
+ 	#psLogo{
+	    max-width: 100px;
+	    display: inline-block;
+	    width: 92px;
+	    margin-top: 16px;
+	    height: 35px;
+	    margin-left: 26%;
+	}	
+	#tourLogo{
+	 	max-width: 100px;
+	    display: inline-block;
+	    height: 43px;
+	    width: 100px;
+	    margin-left: 39%;
+	    margin-top: 3%;
+	}
+	#gbLogo{
+		max-width: 100%;
+	    display: inline-block;
+	    width: 126px;
+	    height: 37px;
+	    margin-top: 8px;
+	    margin-right: 26%;
+	}
+ .score-container{
+		margin-top:1%;
+		background-image: url("../images/Score_BG.png");
+		max-width: 100%;
+		/* height: 1319px; */
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+	}
+	.half-container{
+	/* 	background-image: url("../images/First-Half-Box.png");
+		max-width: 100%;
+		height: 42px;
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	    width: 19%;
+  		padding: 1% 1%; */
+	}
+	#score-half-text{
+		font-weight:700;
+		font-size:19px;
+	}
+	#tname1{
+		 font-size: 15px; 
+		 color: white; 
+		 float: left; 
+		 margin-left: 10%;
+		
+	}
+	#tname2{
+		float: right;
+		font-size: 15px;
+		color: white; 
+		margin-right: 8%;
+	
+	}
+	#vs{
+		font-size: 20px; 
+		float: left; 
+		display: inline-block; 
+		margin-top: -12%; 
+		margin-left: 28%;
+	}
+ }
+
+
+@media (min-width:801px)  {
+	#day{
+		font-size:24px;
+		  margin-left: 20%;
+    text-align: center;
+
+	}
+	#psLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 38%;
+		margin-top: 4%;
+		margin-left: 4%;
+	}	
+	#tourLogo{
+		    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    width: 44%;
+    margin-top: 2%;
+    margin-left: 29%;
+    padding-bottom: 1%;
+	}
+	#gbLogo{
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		width: 25%;
+		margin-top: 4%;
+		margin-right: 4%;
+	}	
+	.score-container {
+    margin-top: 0;
+    background-image: url(../images/Score_BG.png);
+    max-width: 103%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 113%;
+    width: 102.6%;
+    /* padding: 0% 2%; */
+    height: auto;
+}
+	.half-container{
+		background : -moz-linear-gradient(50% 100% 90deg,rgba(255, 255, 255, 1) 0%,rgba(179, 179, 179, 1) 100%);
+		background : -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 100%);
+		background : -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0,rgba(255, 255, 255, 1) ),color-stop(1,rgba(179, 179, 179, 1) ));
+		background : -o-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 100%);
+		background : -ms-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#B3B3B3' ,GradientType=0)";
+		background : linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(179, 179, 179, 1) 100%);
+		border-style : Solid;
+		border-color : #2D2D2D;
+		border-color : rgba(45, 45, 45, 1);
+		border-width : 4px;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B3B3B3',endColorstr='#FFFFFF' , GradientType=0);
+
+	
+	
+		/* background-image: url("../images/First-Half-Box.png");
+		max-width: 100%;
+		height: 42px;
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	    width: 28%;
+  		padding: 3% 3%;
+  		margin-top:-3%; */
+	}
+	#score-half-text{
+		font-weight:700;
+		font-size:19px;
+	}
+	.team1{
+	    max-width: 100%;
+	    height: auto;
+	    display: inline-block;
+	    width: 17.7%;
+	    margin-left: 2.1%;
+
+	}
+	.score-number{
+		background-image: url("../images/score-backgrd.png");
+		max-width: 100%;
+		height: auto;
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: inherit;
+		width: 31%;
+		margin-left: 13%;
+		padding: 3% 2%;
+	}
+	
+	.team2{
+	    max-width: 100%;
+	    height: auto;
+	    display: inline-block;
+	    width: 17.7%;
+	    margin-right: 2.1%;
+		margin-top:-19%;
+	}
+	.team-slider-background{
+		background-image:url("../images/team-slider-backgrd.png");
+		max-width:100%;
+		
+		width:100%;
+		display:inline-block;
+	}
+	#tname1{
+		 font-size: 20px; 
+		 color: white; 
+		 float: left; 
+		 margin-left: 10%;
+		
+	}
+	#tname2{
+		float: right;
+		font-size: 20px;
+		color: white; 
+		margin-right: 8%;
+	
+	}
+}
+
+/* LARGE SCREEN */
+@media (min-width:1281px) {
+	
+	  
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   display: block;
+   clear: both;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	padding-left:0px;
+	padding-right:0px;
+	 font-family: Roboto Condensed, sans-serif;
+	 overflow-x:hidden;
+}
+.container-fluid{
+		padding:0px;
+		overflow-x:hidden;
+}
+
+
+
+.pointable1{
+	color: rgba(255,255,255, 1);
+}
+.summary-table { border-bottom: 1px SOLID gray; }
+.summary-table1 {
+background-color: rgba(236,38,143, 1);
+	 border-bottom: 3px SOLID gray; }
+#table {
+    float: left;
+    width: 83%;
+    margin-left: 8%;
+    margin-top: 0;
+}
+#result {
+    max-width: 100%;
+    width: 83%;
+    float: left;
+    margin-left: 8%;
+    margin-top: -5%;
+}
+#row {
+    height: 53px;
+    width: 83%;
+    background-color: rgba(236,38,143,1);
+    margin-top: 13%;
+    margin-left: 8%;
+}
+#hr{
+	
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8%;
+    width: 82.2%;
+	
+}
+
+#day{
+	color:#FDFDFD;
+	/* float:left;
+	margin-left:25%;
+	margin-top:1%; */
+	
+}
+#tlogo{
+	width:26%;
+	height:auto}
